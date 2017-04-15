@@ -6,7 +6,7 @@ import DemoLogin from './DemoLogin'
 
 class LoginPage extends Component {
   componentWillMount() {
-    this.props.authHandler() 
+    this.props.authHandler()
   }
 
   componentDidMount() {

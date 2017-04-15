@@ -33,7 +33,7 @@ class Navigation extends Component {
         bookmarks_jsx.push(<NavItem to={'/projects/'+bookmark.slug} classNames="" key={bookmark.projectId}>{bookmark.name}</NavItem>)
       )
     } else {
-      return null 
+      return null
     }
 
     if (bookmarks_jsx.length === 0) {
