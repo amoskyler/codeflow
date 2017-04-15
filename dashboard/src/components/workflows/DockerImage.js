@@ -21,8 +21,6 @@ class DockerImage extends Component {
     e.preventDefault()
 
     this.loadData(this.props)
-    if (!this.state.modal === true) {
-    }
 
     this.setState({
       modal: !this.state.modal
@@ -82,7 +80,7 @@ class DockerImage extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, _ownProps) => ({
   project: state.project,
   build: state.build,
 })

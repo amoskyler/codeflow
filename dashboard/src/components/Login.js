@@ -30,7 +30,7 @@ class LoginPage extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => ({
+const mapStateToProps = (state, _ownProps) => ({
   handler: state.auth.handler
 })
 
