@@ -12,3 +12,6 @@ build:
 destroy:
 	docker-compose stop
 	docker-compose rm -f
+
+test:
+	docker-compose run dashboard npm run lint
